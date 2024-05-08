@@ -1,0 +1,113 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  padding: 50pzx;
+}
+
+
+/*--------box-------  */
+/* .box {
+  background-color: red;
+  width: 200px;
+  height: 200px;
+  position: relative;
+  display: inline-block;
+
+  animation-name: myframes;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+} */
+
+/* Ease:  It means that the animation will start slowly, and then after a time period, the speed will increase, and before the end speed will slow down again.
+  Ease-in: It is very similar to ease, but the animation will end quickly.
+  Ease-out: It is very similar to ease. The only difference is that it starts fast. */
+/* @keyframes myframes {
+  from {
+    height: 200px;
+  }
+
+  to {
+    height: 500px;
+  }
+} */
+
+
+/*--------box-2------- */
+/* .box-2 {
+  background-color: blueviolet;
+  width: 200px;
+  height: 200px;
+  position: relative;
+  display: inline-block;
+
+  animation-name: myframes2;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes myframes2 {
+  0% {
+    height: 200px;
+  }
+
+  30% {
+    width: 300px;
+  }
+
+  100% {
+    height: 500px;
+    background-color: bisque;
+  }
+} */
+
+/*--------box-3--------  */
+
+.box-3 {
+  background-color: blue;
+  width: 200px;
+  height: 200px;
+  position: relative;
+  display: inline-block;
+
+  animation-name: myframes3;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes myframes3 {
+  0% {
+    top: 0px;
+    left: 0px;
+    background: pink;
+  }
+
+  25% {
+    top: 0px;
+    left: 100px;
+    background: purple;
+  }
+
+  50% {
+    top: 100px;
+    left: 100px;
+    background: black;
+  }
+
+  75% {
+    top: 100px;
+    left: 0px;
+    background: tomato;
+  }
+
+  100% {
+    top: 0px;
+    left: 0px;
+    background: gold;
+  }
+}
